@@ -8,3 +8,11 @@
 
 /* Contact and social profile links */
 .social-links{display:flex;flex-wrap:wrap;gap:12px 22px;margin-top:30px}.social-links a{display:inline-flex;align-items:center;gap:7px;padding-bottom:5px;border-bottom:1px solid var(--line);color:var(--paper);font:500 .72rem 'DM Mono';text-decoration:none;transition:color .2s,border-color .2s}.social-links a:hover{color:var(--lime);border-color:var(--lime)}.social-links a:focus-visible{outline:2px solid var(--lime);outline-offset:4px}
+
+
+/* Original vector identity boards replace placeholder letterform-only project art. */
+.project-art{padding:0;display:block;background:#20201d;}
+.project-artwork{display:block;width:100%;height:100%;object-fit:cover;object-position:center;}
+.project-button:hover .project-artwork{filter:saturate(1.04);}
+.case-study .project-artwork{object-fit:cover;}
+@media(prefers-reduced-motion:reduce){.project-button:hover .project-art{transform:none;}}
